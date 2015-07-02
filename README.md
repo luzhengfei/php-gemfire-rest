@@ -6,6 +6,7 @@ require_once '../PHPGeodeClient.Api.php';
 $geode = new PHPGeodeClient("192.168.199.132","8080");
 
 //列出所有域，域的可以理解成mongodb的集合。
+
 $re = $geode->list_all_regions();
 print_r($re->getRespondData());
 
