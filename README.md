@@ -47,4 +47,4 @@ print_r($re->getRespondData());
 
 //列出所有查询
 $re = $geode->list_queries();
-print_r($re->getRespondData());
+print_r($re->getRespondData()); 
