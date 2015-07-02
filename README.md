@@ -2,6 +2,7 @@
 //使用前需要从gfsh里创建region,create region --name=user_profile --type=REPLICATE
 
 require_once '../PHPGeodeClient.Api.php';
+
 $geode = new PHPGeodeClient("192.168.199.132","8080");
 
 //列出所有域，域的可以理解成mongodb的集合。
