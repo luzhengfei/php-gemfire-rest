@@ -1,5 +1,4 @@
 # php-gemfire-rest
-Geode分布式数据php api
 //使用前需要从gfsh里创建region,create region --name=user_profile --type=REPLICATE
 
 require_once '../PHPGeodeClient.Api.php';
